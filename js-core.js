@@ -50,3 +50,13 @@ let name1="Sajid";
 console.log(Array.isArray(fruits1));
 console.log(Array.isArray(name1));
 
+// if else statement
+let number01=5;
+let reminder=(number01%2);
+if (reminder==0){
+    console.log('${number01} is even');
+}else{
+ console.log ('${number01} is Odd');
+}
+ 
+
