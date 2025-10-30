@@ -37,9 +37,9 @@ console.log(findStudent(students, "Bob"));
 function processNumbers(arr) {
   return arr.map(num => {
     if (num % 2 === 0) {
-      return num * 2;     // Even → double
+      return num * 2;     
     } else {
-      return num - 1;     // Odd → subtract 1
+      return num - 1;     
     }
   });
 }
